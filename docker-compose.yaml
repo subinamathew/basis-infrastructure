@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  frontend:
+    image: "basisindia/basis-app:latest"
+    ports:
+      - "80:80"
+  backend:
+    image: "basisindia/basis-cms-strapi:latest"
+    ports:
+      - "1337:1337"
